@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+form{
+    text-align: center;
+}
+form input:last-child{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+form label{
+    margin-top: 3%;
+    font-size: 150%;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+}
+.task{
+    position: relative;
+    font-size: 120%;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+.task i{
+    position: absolute;
+    left: 95%;
+    cursor: pointer;
+}
+.clrTask{
+    margin-left: 39%;
+    margin-bottom: 2%;
+}
+.filterTask{
+    margin-left: 12%;
+    margin-bottom: 4%;
+}
